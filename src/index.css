@@ -6,6 +6,8 @@
   --clr-primary-white: #ffffff;
   --clr-primary-purple: #7c2bc8;
   --clr-primary-orange: #ffbe65;
+
+  font-family: 'Roboto', sans-serif;
 }
 
 * {
