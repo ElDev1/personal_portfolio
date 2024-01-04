@@ -2,37 +2,38 @@ import styles from '../styles/navbar.module.css'
 
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { IoMail } from 'react-icons/io5'
+import { Link } from 'react-router-dom'
 
 function Nav () {
   return (
     <nav className={styles.navbar}>
       <ul className={styles.navbar__menu}>
         <li>
-          <a href="">Home</a>
+          <Link to="">Home</Link>
         </li>
         <li>
-          <a href="">About</a>
+          <Link to="">About</Link>
         </li>
         <li>
-          <a href="">Web Projects</a>
+          <Link to="">Web Projects</Link>
         </li>
         <li>
-          <a href="">Data Projects</a>
+          <Link to="">Data Projects</Link>
         </li>
         <li>
-          <a href="">Contact</a>
+          <Link to="">Contact</Link>
         </li>
       </ul>
-      <div className='navbar__buttons'>
-        <a href="">
-          <FaLinkedin />
-        </a>
-        <a href="">
-          <IoMail />
-        </a>
-        <a href="">
-          <FaGithub />
-        </a>
+      <div className={styles.navbar__buttons}>
+        <Link href="">
+          <FaLinkedin className={styles.linkedin__icon} size={'30px'} />
+        </Link>
+        <Link href="">
+          <IoMail className={styles.mail__icon} size={'35px'} />
+        </Link>
+        <Link className={styles.github__icon} href="">
+          <FaGithub size={'30px'} />
+        </Link>
       </div>
     </nav>
   )

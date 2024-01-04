@@ -4,9 +4,13 @@ import styles from '../styles/app.module.css'
 
 const App = () => {
   return (
-    <div className={styles.app}>
-      <Nav />
-    </div>
+    <>
+      <header>
+        <Nav />
+      </header>
+      <main className={styles.app}>
+      </main>
+    </>
   )
 }
 

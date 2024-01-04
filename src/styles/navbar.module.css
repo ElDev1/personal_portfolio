@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 15px;
+  padding: 0 10%;
   height: 64px;
+  background-color: var(--main-bg-seconday);
 }
 
 .navbar__menu {
@@ -13,10 +14,42 @@
 }
 
 .navbar__menu li {
-  border: 1px white solid;
+  padding: 5px;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+
+.navbar__menu li:hover {
+  background-color: rgb(154, 154, 154, 0.4);
 }
 
 .navbar__menu a {
   text-decoration: none;
   color: white;
+}
+
+.navbar__buttons {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+
+.navbar__buttons svg:hover {
+  color: rgb(157, 157, 157,0.5);
+  transition: all 0.5s;
+}
+
+.linkedin__icon {
+  color: rgb(0, 145, 255);
+  cursor: pointer;
+}
+
+.mail__icon {
+  color: rgba(255, 0, 0, 0.842);
+  cursor: pointer;
+}
+
+.github__icon {
+  color: white;
+  cursor: pointer;
 }
