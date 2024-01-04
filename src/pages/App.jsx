@@ -1,3 +1,4 @@
+import Main from '../components/Main'
 import Nav from '../components/Nav'
 
 import styles from '../styles/app.module.css'
@@ -9,6 +10,7 @@ const App = () => {
         <Nav />
       </header>
       <main className={styles.app}>
+        <Main />
       </main>
     </>
   )

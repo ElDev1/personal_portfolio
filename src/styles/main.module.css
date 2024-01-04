@@ -1,0 +1,30 @@
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fake__image {
+  width: 400px;
+  height: 350px;
+  background-color: orange;
+}
+
+.first__text {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.second__text {
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.third__text {
+  color: var(--clr-primary-purple);
+  font-weight: bold;
+  font-size: 4rem;
+}

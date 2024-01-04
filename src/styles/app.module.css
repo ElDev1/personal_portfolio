@@ -1,14 +1,12 @@
 /*phone*/
 @media (max-width: 480px) {
   .app {
-    background-color: aquamarine;
   }
 }
 
 /*tablets*/
 @media (min-width: 481px) and (max-width: 768px) {
   .app {
-    background-color: rgb(29, 217, 35);
   }
 }
 
@@ -23,7 +21,6 @@
 
 @media (min-width: 1025px) {
   .app {
-    background-color: rgb(250, 209, 5);
     width: 85%;
     margin: 0 auto;
   }
