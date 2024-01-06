@@ -27,4 +27,42 @@
   color: var(--clr-primary-purple);
   font-weight: bold;
   font-size: 4rem;
+  background: linear-gradient(to right, var(--clr-primary-purple) , var(--clr-primary-orange));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main__buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.cv__button {
+  border: none;
+  outline: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: var(--main-bg-color);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.4s;
+}
+
+.contact__button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.4s;
+}
+
+.contact__button:hover, .cv__button:hover {
+  background: linear-gradient(var(--clr-primary-purple),var(--clr-primary-orange));
+  color: white;
+  outline: none;
 }

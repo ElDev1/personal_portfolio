@@ -1,15 +1,20 @@
 import styles from '../styles/main.module.css'
 
+import CoffeMachine from '../utils/animation/CoffeMachine'
+
 const Main = () => {
   return (
-    <section className={styles.main}>
-      <div className="main__title">
-        <h2 className={styles.first__text}>{"Hello I'M"}</h2>
-        <h2 className={styles.second__text}>Devi Amaolo</h2>
-        <h2 className={styles.third__text}>Web Developer</h2>
+    <section id='main' className={styles.main}>
+      <div>
+        <p className={styles.first__text}>{"Hello I'M"}</p>
+        <p className={styles.second__text}>Devi Amaolo</p>
+        <p className={styles.third__text}>Web Developer</p>
+        <div className={styles.main__buttons}>
+          <button className={styles.cv__button}>My CV</button>
+          <button className={styles.contact__button}>{"Let's talk"}</button>
+        </div>
       </div>
-      <div className={styles.fake__image}>
-      </div>
+      <CoffeMachine />
     </section>
   )
 }
