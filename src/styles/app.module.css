@@ -13,7 +13,6 @@
 /*laptops*/
 @media (min-width: 769px) and (max-width: 1024px) {
   .app {
-    background-color: rgb(51, 126, 153);
     width: 85%;
     margin: 0 auto;
   }

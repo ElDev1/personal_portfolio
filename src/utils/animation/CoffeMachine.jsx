@@ -2,7 +2,6 @@ import './coffemachine.css'
 
 const CoffeMachine = () => {
   return (
-    <div>
       <div className="container">
         <div className="coffee-header">
           <div className="coffee-header__buttons coffee-header__button-one"></div>
@@ -22,7 +21,6 @@ const CoffeMachine = () => {
         </div>
         <div className="coffee-footer"></div>
       </div>
-    </div>
   )
 }
 

@@ -14,7 +14,9 @@ const Main = () => {
           <button className={styles.contact__button}>{"Let's talk"}</button>
         </div>
       </div>
-      <CoffeMachine />
+      <div className={styles.img__container}>
+        <CoffeMachine />
+      </div>
     </section>
   )
 }

@@ -66,3 +66,9 @@
   color: white;
   outline: none;
 }
+
+.img__container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}

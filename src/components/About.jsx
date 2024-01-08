@@ -7,6 +7,8 @@ import { TbBrandNextjs } from 'react-icons/tb'
 
 import styles from '../styles/about.module.css'
 
+import svg from '../assets/code.svg'
+
 const About = () => {
   return (
     <section id='about' className={styles.about}>
@@ -62,6 +64,7 @@ const About = () => {
         </div>
       </div>
       <div className={styles.fake__image}>
+        <img src={svg} alt="" />
       </div>
     </section>
   )
