@@ -1,6 +1,6 @@
 import styles from '../styles/main.module.css'
 
-import CoffeMachine from '../utils/animation/CoffeMachine'
+import CoffeMachine from '../utils/animation/CoffeeMachine'
 
 const Main = () => {
   return (
