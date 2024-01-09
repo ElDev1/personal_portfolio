@@ -8,7 +8,7 @@ const Main = () => {
       <div>
         <p className={styles.first__text}>{"Hello I'M"}</p>
         <p className={styles.second__text}>Devi Amaolo</p>
-        <p className={styles.third__text}>Web Developer</p>
+        <p className={styles.third__text}>Web Dev and Data</p>
         <div className={styles.main__buttons}>
           <button className={styles.cv__button}>My CV</button>
           <button className={styles.contact__button}>{"Let's talk"}</button>

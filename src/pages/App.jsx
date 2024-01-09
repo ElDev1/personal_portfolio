@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import Main from '../components/Main'
 import Nav from '../components/Nav'
 import About from '../components/About'
+import Projects from '../components/Projects'
 import Separator from '../components/Separator'
 
 import styles from '../styles/app.module.css'
@@ -24,6 +25,8 @@ const App = () => {
         <Main />
         <Separator />
         <About />
+        <Separator />
+        <Projects />
         <Separator />
       </main>
     </>
