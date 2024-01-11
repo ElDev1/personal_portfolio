@@ -62,7 +62,7 @@
 }
 
 .contact__button:hover, .cv__button:hover {
-  background: linear-gradient(var(--clr-primary-purple),var(--clr-primary-orange));
+  background: linear-gradient(to right, var(--clr-primary-purple) , var(--clr-primary-orange));
   color: white;
   outline: none;
 }

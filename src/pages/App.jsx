@@ -4,6 +4,7 @@ import Main from '../components/Main'
 import Nav from '../components/Nav'
 import About from '../components/About'
 import Projects from '../components/Projects'
+import Contact from '../components/Contact'
 import Separator from '../components/Separator'
 
 import styles from '../styles/app.module.css'
@@ -28,6 +29,7 @@ const App = () => {
         <Separator />
         <Projects />
         <Separator />
+        <Contact />
       </main>
     </>
   )
