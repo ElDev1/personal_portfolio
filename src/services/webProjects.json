@@ -1,0 +1,123 @@
+[
+  {
+      "id": "1",
+      "type": "web",
+      "title": "Netflix Clon",
+      "image": "/images/freeflix.png",
+      "shortDescription": "FullStack Netflix Clone using NextJS to watch free shortfilms....",
+      "description": "FullStack Netflix Clone using NextJS, Typescript, NextAuth and implements MongoDB & Prisma connect for database administration",
+      "techStack": ["NextJs","MongoDb","Typescript","Tailwind","Prisma"],
+      "github": "https://github.com/ElDev1/freeflix",
+      "demo": "https://freeflix-puce.vercel.app/"
+  },
+  {
+      "id": "2",
+      "type": "web",
+      "title": "Memories",
+      "image": "/images/memories.png",
+      "shortDescription": "Memories is a CRUD app to share memories of moments you would like to remember...",
+      "description": "Memories is a CRUD app to share memories of moments you would like to remember such as a trip, a party with friends or the day you adopted your pet. features of the app include a global view to see all the memories created by users and a view to manage the ones you have created.",
+      "techStack": ["React","React Router","Tailwind","Formik","Firebase"],
+      "github": "https://github.com/ElDev1/memories",
+      "demo": "https://memories-eldev1.vercel.app/"
+  },
+  {
+      "id": "5",
+      "type": "web",
+      "title": "Shop app",
+      "image": "/images/yardsale.png",
+      "shortDescription": "The project is a yard sale page that consumes an API to get different products...",
+      "description": "this app was created as a project for Platzi's React course. The project is a yard sale page that consumes an API to get different products where you can save the ones you would like to buy.",
+      "techStack": ["React","React Router","CSS","Context API"],
+      "github": "https://github.com/ElDev1/shop_app",
+      "demo": "https://shop-app-three.vercel.app/"
+  },
+  {
+      "id": "4",
+      "type": "web",
+      "title": "Currency app",
+      "image": "/images/currency-app.png",
+      "shortDescription": "Application created using NextJS 13 to check the value of different dollar rates against the value of the Argentine peso....",
+      "description": "Application created using NextJS 13 to check the value of different dollar rates against the value of the argentine peso and manage expenses. The application uses a web scraper to keep dollar prices updated.",
+      "techStack": ["NextJs","Typescript","Tailwind"],
+      "github": "https://github.com/ElDev1/currency-app",
+      "demo": "https://currency-app-beige.vercel.app/"
+  },
+  {
+      "id": "6",
+      "type": "web",
+      "title": "Social network main page",
+      "image": "/images/socialNetwork.png",
+      "shortDescription": "Social Network main page created using React and Material UI...",
+      "description": "This application was created to practice styling using Styled components and Material UI with custom themes. The page is responsive design and has dark mode implemented.",
+      "techStack": ["React","Material UI","Styled components"],
+      "github": "https://github.com/ElDev1/social_network_landing",
+      "demo": "https://social-network-landing.vercel.app/"
+  },
+  {
+      "id": "7",
+      "type": "web",
+      "title": "Movies",
+      "image": "/images/movies.png",
+      "shortDescription": "Movies is a challenge from Alkemy. the application displays a list of movies...",
+      "description": "Movies is a challenge from Alkemy. The application displays a list of movies where you can see details of each one and add it to a list of favorites. You can search for movies using a search bar.",
+      "techStack": ["React","React Router","Bootstrap"],
+      "github": "https://github.com/ElDev1/movie-app",
+      "demo": "https://movie-app-eldev1.vercel.app/"
+  },
+  {
+      "id": "8",
+      "type": "web",
+      "title": "Rest countries challenge",
+      "image": "/images/restcountries.png",
+      "shortDescription": "My solution to the REST Countries API challenge...",
+      "description": "My solution to the REST Countries API challenge that includes features like search bar, select button to filter countries by region and detailed information by clicking on a country.",
+      "techStack": ["React","React Router","Chakra UI"],
+      "github": "https://github.com/ElDev1/rest-countries-challenge",
+      "demo": "https://rest-countries-challenge-umber.vercel.app/"
+  },
+  {
+      "id": "9",
+      "type": "web",
+      "title": "Quiz game",
+      "image": "/images/quiz.png",
+      "shortDescription": "Simple quiz game created using vanilla javascript...",
+      "description": "Simple quiz game created using JS vanilla and OOP paradigm.",
+      "techStack": ["Vanilla JS"],
+      "github": "https://github.com/ElDev1/quiz_game",
+      "demo": "https://quiz-game-dun.vercel.app/"
+  },
+  {
+      "id": "10",
+      "type": "web",
+      "title": "Sketch-pad",
+      "image": "/images/sketchpad.png",
+      "shortDescription": "Sketchpad created using plain HTML, CSS and Javascript...",
+      "description": "Sketchpad created using plain HTML, CSS and Javascript to make pixel art.",
+      "techStack": ["Vanilla JS", "CSS", "HTML"],
+      "github": "https://github.com/ElDev1/etch-a-sketch-challenge",
+      "demo": "https://eldev1.github.io/etch-a-sketch-challenge/"
+  },
+  {
+      "id": "11",
+      "type": "dapp",
+      "title": "Wave Portal",
+      "image": "/images/wave-portal.png",
+      "shortDescription": "Dapp created to interact with wave smart contract...",
+      "description": "Dapp created to interact with wave smart contract, you can connect with your ethereum wallet and leave a message that will be stored in the Goerli testnet blockchain.",
+      "techStack": ["React","CSS","Solidity"],
+      "github": "https://github.com/ElDev1/waveportal-frontend",
+      "demo": "https://nimble-scone-a7f5d5.netlify.app/"
+  },
+  {
+      "id": "12",
+      "type": "dapp",
+      "title": "NFT Collection",
+      "image": "/images/nft-collection.png",
+      "shortDescription": "Project where users can connect with their Ethereum wallet and mint an NFT...",
+      "description": "Project where users can connect with their Ethereum wallet and mint an NFT to see it later on Open Sea.",
+      "techStack": ["React","Solidity","CSS"],
+      "github": "https://github.com/ElDev1/nft-collection-ui",
+      "demo": "https://endearing-gumption-4b9600.netlify.app/"
+  }
+]

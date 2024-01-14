@@ -9,19 +9,19 @@ function Nav () {
     <nav className={styles.navbar}>
       <ul className={styles.navbar__menu}>
         <li>
-          <Link to="">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="">About</Link>
         </li>
         <li>
-          <Link to="">Web Projects</Link>
-        </li>
-        <li>
-          <Link to="">Data Projects</Link>
-        </li>
-        <li>
           <Link to="">Contact</Link>
+        </li>
+        <li>
+          <Link to={{ pathname: '/projects/web' }}>Web Projects</Link>
+        </li>
+        <li>
+          <Link to="/projects/data">Data Projects</Link>
         </li>
       </ul>
       <div className={styles.navbar__buttons}>
