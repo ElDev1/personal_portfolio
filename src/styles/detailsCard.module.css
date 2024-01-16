@@ -1,0 +1,23 @@
+.detailsCard {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.detailsCard__info {
+  width: 500px;
+  border: 1px solid white;
+}
+
+.detailsCard__img {
+  width: 50%;
+  height: 50%
+}
+
+.detailsCard__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

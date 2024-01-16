@@ -17,9 +17,6 @@ const App = () => {
 
   return (
     <>
-      <head>
-        <title>{'Devi Amaolo'}</title>
-      </head>
       <header>
         <Nav />
       </header>

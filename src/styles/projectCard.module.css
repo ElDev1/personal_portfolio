@@ -7,7 +7,7 @@
 }
 
 .projectCard:hover {
-  scale: 1.1;
+  scale: 1.05;
 }
 
 .projectCard img {
@@ -17,7 +17,7 @@
 }
 
 .projectCard__info {
-  padding: 10px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   gap: 15px;

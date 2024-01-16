@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom/client'
 
 import App from './pages/App'
 import ErrorPage from './pages/ErrorPage'
+import InfoProject from './pages/InfoProject'
+import ProjectDetails from './pages/ProjectDetails'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import './index.css'
-import InfoProject from './pages/InfoProject'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,11 @@ const router = createBrowserRouter([
   {
     path: '/projects/:projectType',
     element: <InfoProject />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: '/projects/:projectType/:id',
+    element: <ProjectDetails />,
     errorElement: <ErrorPage />
   }
 ])
