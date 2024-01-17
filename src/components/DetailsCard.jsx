@@ -18,6 +18,10 @@ const DetailsCard = () => {
             <div></div>
           </div>
         </div>
+        <div className={styles.detailsCard__buttons}>
+          <button>Github</button>
+          <button>Live Demo</button>
+        </div>
       </div>
     </div>
   )
