@@ -18,10 +18,7 @@ function Nav () {
           <Link to="">Contact</Link>
         </li>
         <li>
-          <Link to={{ pathname: '/projects/web' }}>Web Projects</Link>
-        </li>
-        <li>
-          <Link to="/projects/data">Data Projects</Link>
+          <Link to="/#projects">Projects</Link>
         </li>
       </ul>
       <div className={styles.navbar__buttons}>

@@ -7,6 +7,7 @@ import Projects from '../components/Projects'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import Separator from '../components/Separator'
+import ScrollToAnchor from '../utils/ScrollToAnchor'
 
 import styles from '../styles/app.module.css'
 
@@ -21,6 +22,7 @@ const App = () => {
         <Nav />
       </header>
       <main className={styles.app}>
+        <ScrollToAnchor />
         <Main />
         <Separator />
         <About />
