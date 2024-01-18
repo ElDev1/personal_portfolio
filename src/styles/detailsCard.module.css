@@ -51,14 +51,27 @@
   gap: 15px;
 }
 
-.detailsCard__buttons button {
+.detailsCard__buttons button, a {
   padding: 10px;
   border-radius: 6px;
   border: none;
   font-size: 1rem;
+  cursor: pointer;
+}
+
+.detailsCard__buttons a {
+  background-color: white;
+  text-decoration: none;
+  color: black;
 }
 
 .detailsCard__buttons button:nth-child(1) {
+  background-color: var(--main-bg-color);
+  border: solid 1px white;
+  color: white;
+}
+
+.detailsCard__buttons button:nth-child(2) {
   background-color: var(--main-bg-color);
   border: solid 1px white;
   color: white;
@@ -70,6 +83,12 @@
 }
 
 .detailsCard__buttons button:nth-child(2):hover {
+  background: linear-gradient(to right, var(--clr-primary-purple) , var(--clr-primary-orange));
+  border: solid 1px var(--main-bg-color);
+  color: white;
+}
+
+.detailsCard__buttons a:nth-child(3):hover {
   background: linear-gradient(to right, var(--clr-primary-purple) , var(--clr-primary-orange));
   border: solid 1px var(--main-bg-color);
   color: white;

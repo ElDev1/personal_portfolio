@@ -1,6 +1,6 @@
 import DetailsCard from '../components/DetailsCard'
-import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import Nav from '../components/Nav'
 
 import styles from '../styles/projectDetails.module.css'
 

@@ -1,6 +1,10 @@
 import styles from '../styles/detailsCard.module.css'
 
+import { useParams, Link } from 'react-router-dom'
+
 const DetailsCard = () => {
+  const { projectType } = useParams()
+
   return (
     <div className={styles.detailsCard}>
       <div className={styles.detailsCard__img}>
@@ -21,6 +25,7 @@ const DetailsCard = () => {
         <div className={styles.detailsCard__buttons}>
           <button>Github</button>
           <button>Live Demo</button>
+          <Link to='/projects/web'>{`Back to ${projectType} projects`}</Link>
         </div>
       </div>
     </div>

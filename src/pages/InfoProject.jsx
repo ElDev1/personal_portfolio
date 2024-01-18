@@ -1,20 +1,21 @@
 import styles from '../styles/infoProject.module.css'
 
+import projects from '../services/projects.json'
+
 import Nav from '../components/Nav'
 import ProjectCard from '../components/ProjectCard'
 
 import { useParams } from 'react-router-dom'
-import { useEffect } from 'react'
-
-import { useProjectsData } from '../services/useProjectData'
+import { useEffect, useState } from 'react'
 
 const InfoProject = () => {
   const { projectType } = useParams()
-  const data = useProjectsData(projectType)
+  const [data, setData] = useState([])
 
   useEffect(() => {
     document.title = 'Devi | Projects'
-  }, [])
+    setData(projects.filter(elem => elem.type === projectType))
+  }, [projectType])
 
   console.log(data)
   return (
@@ -26,15 +27,7 @@ const InfoProject = () => {
       <section className={styles.infoProject}>
         <h1 className={styles.infoProject__title}>{projectType === 'web' ? 'Web Projects' : 'Data Projects'}</h1>
         <div className={styles.infoProject__container}>
-          <ProjectCard projectType={projectType} id={1} />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
+          {data.map(elem => <ProjectCard key={elem.id} id={elem.id} projectType={elem.type} />)}
         </div>
       </section>
     </>
