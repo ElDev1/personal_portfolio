@@ -9,13 +9,13 @@ function Nav () {
     <nav className={styles.navbar}>
       <ul className={styles.navbar__menu}>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/#main">Home</Link>
         </li>
         <li>
-          <Link to="">About</Link>
+          <Link to="/#about">About</Link>
         </li>
         <li>
-          <Link to="">Contact</Link>
+          <Link to="/#contact">Contact</Link>
         </li>
         <li>
           <Link to="/#projects">Projects</Link>

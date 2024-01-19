@@ -6,7 +6,7 @@ import styles from '../styles/contact.module.css'
 
 const Contact = () => {
   return (
-    <section className={styles.contact}>
+    <section id='contact' className={styles.contact}>
       <img className={styles.contact__image} src={contact} alt="contact image" />
       <h1 className={styles.contact__title}>{"Let's Connect"}</h1>
       <p className={styles.contact__email}>deviamaolo@gmail.com</p>

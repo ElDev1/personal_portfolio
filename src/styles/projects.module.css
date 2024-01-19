@@ -44,6 +44,7 @@
 .projects__type:hover a {
   border-bottom: 2px solid  orchid;
   margin-bottom: -2px;
+  border-radius: 0px;
 }
 
 .projects__type img {

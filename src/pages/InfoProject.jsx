@@ -27,7 +27,7 @@ const InfoProject = () => {
       <section className={styles.infoProject}>
         <h1 className={styles.infoProject__title}>{projectType === 'web' ? 'Web Projects' : 'Data Projects'}</h1>
         <div className={styles.infoProject__container}>
-          {data.map(elem => <ProjectCard key={elem.id} id={elem.id} projectType={elem.type} />)}
+          {data.map(elem => <ProjectCard key={elem.id} id={elem.id} projectType={elem.type} title={elem.title} image={elem.image} shortDescription={elem.shortDescription} />)}
         </div>
       </section>
     </>

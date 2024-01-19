@@ -26,7 +26,7 @@
       "type": "web",
       "title": "Shop app",
       "image": "/images/yardsale.png",
-      "shortDescription": "The project is a yard sale page that consumes an API to get different products...",
+      "shortDescription": "yard sale page that consumes an API to get different products...",
       "description": "this app was created as a project for Platzi's React course. The project is a yard sale page that consumes an API to get different products where you can save the ones you would like to buy.",
       "techStack": ["React","React Router","CSS","Context API"],
       "github": "https://github.com/ElDev1/shop_app",
