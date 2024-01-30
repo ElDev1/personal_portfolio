@@ -1,12 +1,16 @@
 /*phone*/
 @media (max-width: 480px) {
   .app {
+    width: 85%;
+    margin: 0 auto;
   }
 }
 
 /*tablets*/
 @media (min-width: 481px) and (max-width: 768px) {
   .app {
+    width: 85%;
+    margin: 0 auto;
   }
 }
 

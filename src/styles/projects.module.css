@@ -51,3 +51,63 @@
   width: 300px;
   height: 300px;
 }
+
+/* media queries */
+
+/*phone*/
+@media (max-width: 480px) {
+  .projects__container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .projects__type img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .projects__title {
+    font-size: 3rem;
+  }
+
+  .projects {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+/*tablets*/
+@media (min-width: 481px) and (max-width: 768px) {
+  .projects__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .projects__type img {
+    width: 200px;
+    height: 200px;
+  }
+  .projects__title {
+    font-size: 3rem;
+  }
+  .projects {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+/*laptops*/
+@media (min-width: 769px) and (max-width: 1024px) {
+  .projects__type img {
+    width: 200px;
+    height: 200px;
+  }
+}

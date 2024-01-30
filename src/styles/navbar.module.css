@@ -56,3 +56,25 @@
   color: white;
   cursor: pointer;
 }
+
+/* media query */
+
+/*phone*/
+@media (max-width: 480px) {
+  .navbar {
+    justify-content: center;
+  }
+  .navbar__buttons {
+    display: none;
+  }
+}
+
+/*tablets*/
+@media (min-width: 481px) and (max-width: 768px) {
+  .navbar {
+    justify-content: center;
+  }
+  .navbar__buttons {
+    display: none;
+  }
+}

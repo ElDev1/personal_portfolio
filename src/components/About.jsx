@@ -63,7 +63,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className={styles.fake__image}>
+      <div className={styles.about__image}>
         <img src={svg} alt="" />
       </div>
     </section>
