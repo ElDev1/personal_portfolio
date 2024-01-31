@@ -15,11 +15,10 @@ import {
   SiBootstrap,
   SiChakraui,
   SiSolidity,
-  FaHardHat,
   SiTypescript,
   SiPrisma
 } from 'react-icons/si'
-import { FaWpforms } from 'react-icons/fa'
+import { FaWpforms, FaHardHat } from 'react-icons/fa'
 import { TbBrandNextjs } from 'react-icons/tb'
 
 export const projectIcon = (technology) => {

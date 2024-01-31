@@ -17,7 +17,6 @@ const InfoProject = () => {
     setData(projects.filter(elem => elem.type === projectType))
   }, [projectType])
 
-  console.log(data)
   return (
     <>
       <head>
