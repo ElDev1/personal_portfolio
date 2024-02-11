@@ -1,6 +1,6 @@
 import {
   SiCss3,
-  SiNodeDotJs,
+  SiNodedotjs,
   SiMongodb,
   SiReact,
   SiStyledcomponents,
@@ -8,7 +8,7 @@ import {
   SiJavascript,
   SiHtml5,
   SiRedux,
-  SiMaterialui,
+  SiCoinmarketcap,
   SiReactrouter,
   SiTailwindcss,
   SiFirebase,
@@ -28,9 +28,9 @@ export const projectIcon = (technology) => {
     case 'css':
       return <SiCss3 size={20} />
     case 'express':
-      return <SiNodeDotJs size={20} />
+      return <SiNodedotjs size={20} />
     case 'nodejs':
-      return <SiNodeDotJs size={20} />
+      return <SiNodedotjs size={20} />
     case 'react':
       return <SiReact size={20} />
     case 'nextjs':
@@ -46,7 +46,7 @@ export const projectIcon = (technology) => {
     case 'redux':
       return <SiRedux size={20} />
     case 'material ui':
-      return <SiMaterialui size={20} />
+      return <SiCoinmarketcap size={20} />
     case 'react router':
       return <SiReactrouter size={20} />
     case 'formik':

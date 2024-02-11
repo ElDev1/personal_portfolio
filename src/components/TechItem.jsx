@@ -1,12 +1,10 @@
-// import { projectIcon } from '../utils/ProjectIcons.jsx'
-import { SiMongodb } from 'react-icons/si'
-
+import { projectIcon } from '../utils/ProjectIcons.jsx'
 import styles from '../styles/techItem.module.css'
 
 const TechItem = ({ tech }) => {
   return (
     <div className={styles.techItem}>
-      <SiMongodb />
+      {projectIcon(tech)}
       <p>{tech}</p>
     </div>
   )
