@@ -24,3 +24,45 @@
   margin-bottom: 100px;
 }
 
+/*phone*/
+@media (max-width: 480px) {
+  .infoProject__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .infoProject__title {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 2rem;
+    background: linear-gradient(to right, var(--clr-primary-purple) , var(--clr-primary-orange));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+/*tablets*/
+@media (min-width: 481px) and (max-width: 768px) {
+  .infoProject__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+}
+
+/*laptops*/
+@media (min-width: 769px) and (max-width: 1024px) {
+  .infoProject__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+}
