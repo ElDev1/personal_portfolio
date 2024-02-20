@@ -34,6 +34,7 @@
 
 .cv__button {
   border: none;
+  text-decoration: none;
   outline: 1px solid white;
   border-radius: 5px;
   padding: 10px 20px;
@@ -45,6 +46,7 @@
 }
 
 .contact__button {
+  text-decoration: none;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;

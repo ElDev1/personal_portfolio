@@ -22,13 +22,18 @@ function Nav () {
         </li>
       </ul>
       <div className={styles.navbar__buttons}>
-        <Link href="">
+        <Link to='https://www.linkedin.com/in/deviamaolo/' target='_blank' rel='noopener noreferrer'>
           <FaLinkedin className={styles.linkedin__icon} size={'30px'} />
         </Link>
-        <Link href="">
+        <Link 
+            to='#'
+            onClick={(e) => {
+                window.location.href = 'mailto:deviamaolo@gmail.com';
+                e.preventDefault();
+            }}>
           <IoMail className={styles.mail__icon} size={'35px'} />
         </Link>
-        <Link className={styles.github__icon} href="">
+        <Link to='https://github.com/ElDev1' target='_blank' rel='noopener noreferrer' className={styles.github__icon} href="">
           <FaGithub size={'30px'} />
         </Link>
       </div>
