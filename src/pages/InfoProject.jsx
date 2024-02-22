@@ -25,7 +25,6 @@ const InfoProject = () => {
         <div className={styles.infoProject__container}>
           {data.map(elem => <ProjectCard key={elem.id} id={elem.id} projectType={elem.type} title={elem.title} image={elem.image} shortDescription={elem.shortDescription} />)}
         </div>
-        {projectType === 'data' ? <h1 style={{color: 'white'}}>Building...</h1> : ''}
       </section>
     </>
   )

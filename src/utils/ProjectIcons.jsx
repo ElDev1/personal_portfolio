@@ -16,10 +16,15 @@ import {
   SiChakraui,
   SiSolidity,
   SiTypescript,
-  SiPrisma
+  SiPrisma,
+  SiQlik,
+  SiPython,
+  SiPowerbi,
+  SiMicrosoftexcel
 } from 'react-icons/si'
 import { FaWpforms, FaHardHat } from 'react-icons/fa'
 import { TbBrandNextjs } from 'react-icons/tb'
+import { PiFileSqlBold } from "react-icons/pi";
 
 export const projectIcon = (technology) => {
   switch (technology.toLowerCase()) {
@@ -67,6 +72,16 @@ export const projectIcon = (technology) => {
       return <FaHardHat size={20} />
     case 'prisma':
       return <SiPrisma size={20} />
+    case 'qlik sense':
+      return <SiQlik size={20} />
+    case 'python':
+      return <SiPython size={20} />
+    case 'power bi':
+      return <SiPowerbi size={20} />
+    case 'excel':
+      return <SiMicrosoftexcel size={20} />
+    case 'sql':
+      return <PiFileSqlBold size={20} />
     default:
       return ''
   }

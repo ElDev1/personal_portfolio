@@ -119,5 +119,35 @@
       "techStack": ["React","Solidity","CSS"],
       "github": "https://github.com/ElDev1/nft-collection-ui",
       "demo": "https://endearing-gumption-4b9600.netlify.app/"
+  },
+  {
+    "id": "14",
+    "type": "data",
+    "title": "Airbnb Analysis: Buenos Aires City",
+    "image": "/images/airbnb.png",
+    "shortDescription": "Analytical application created as a final project of Jupi Digital Bootcamp in order to analyze the temporary rentals...",
+    "description": "Analytical application created as a final project of Jupi Digital Bootcamp in order to analyze the temporary rentals available in the city of Buenos Aires using Airbnb data obtained through web scraping using Python. The application was developed with Qlik Sense as BI tool.",
+    "techStack": ["Qlik Sense","Python"],
+    "repository": "https://drive.google.com/drive/folders/1iQcp6eo_du5gR96ZsTqoJExDNpl4Gj5J?usp=sharing" 
+  },
+  {
+    "id": "15",
+    "type": "data",
+    "title": "Sales Analysis: Contoso",
+    "image": "/images/contoso.png",
+    "shortDescription": "Contoso is a fictitious global manufacturing conglomerate with over 15 million records created by Microsoft for the purpose of practicing...",
+    "description": "Contoso is a fictitious global manufacturing conglomerate with over 15 million records created by Microsoft for the purpose of practicing the development of analytical applications using large volumes of corporate data. The application was entirely developed using Qlik Sense. I established a connection to a MySQL database where, following the extraction stage, my aim was to create a star schema model to optimize the dataset for subsequent analysis.",
+    "techStack": ["Qlik Sense","SQL","Excel"],
+    "repository": "https://drive.google.com/drive/folders/1fwD1D7SvuV3oYdI6DjY0lLs8Bvz7PLeZ?usp=sharing"
+  },
+  {
+    "id": "16",
+    "type": "data",
+    "title": "Analysis: Professional Survey Breakdown",
+    "image": "/images/survey.png",
+    "shortDescription": "Analytical application developed with Power BI to analyze the results obtained from a survey created with Google Forms...",
+    "description": "Analytical application developed with Power BI to analyze the results obtained from a survey created with Google Forms regarding the employment situation of workers in various countries working in data field within the IT sector.",
+    "techStack": ["Power BI","Excel"],
+    "repository": "https://drive.google.com/drive/folders/1rmUgoj73LYNrRrqyOZX-ugKSs2q9pRyf?usp=sharing"
   }
 ]

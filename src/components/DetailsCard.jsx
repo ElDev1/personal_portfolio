@@ -4,9 +4,9 @@ import { useParams, Link } from 'react-router-dom'
 
 import TechItem from './TechItem'
 
-const DetailsCard = ({ title, description, img, techStack, github, demo }) => {
+const DetailsCard = ({ title, description, img, techStack, github, demo, repository }) => {
   const { projectType } = useParams()
-
+  console.log(repository)
   return (
     <div className={styles.detailsCard}>
       <div className={styles.detailsCard__img}>
@@ -26,11 +26,20 @@ const DetailsCard = ({ title, description, img, techStack, github, demo }) => {
             </div>
           </div>
         </div>
-        <div className={styles.detailsCard__buttons}>
-          <button onClick={() => window.open(github)}>Github</button>
-          <button onClick={() => window.open(demo)}>Live Demo</button>
-          <Link to='/projects/web'>{`Back to ${projectType} projects`}</Link>
-        </div>
+        {
+          projectType === 'web' ? (
+            <div className={styles.detailsCard__buttons}>
+              <button onClick={() => window.open(github)}>Github</button>
+              <button onClick={() => window.open(demo)}>Live Demo</button>
+              <Link to='/projects/web'>{`Back to ${projectType} projects`}</Link>
+            </div>
+          ) : (
+            <div className={styles.detailsCard__buttons}>
+              <button onClick={() => window.open(repository)}>Repository</button>
+              <Link to='/projects/data'>{`Back to ${projectType} projects`}</Link>
+            </div>
+          )
+        }
       </div>
     </div>
   )
