@@ -1,9 +1,10 @@
 import { FaReact, FaNodeJs } from 'react-icons/fa'
-import { SiJavascript, SiExpress, SiTypescript } from 'react-icons/si'
+import { SiJavascript, SiExpress, SiTypescript, SiQlik, SiPython, SiPowerbi } from 'react-icons/si'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { DiCss3, DiMongodb } from 'react-icons/di'
 import { BiGitBranch } from 'react-icons/bi'
-import { TbBrandNextjs } from 'react-icons/tb'
+import { PiFileSqlBold } from "react-icons/pi";
+
 
 import styles from '../styles/about.module.css'
 
@@ -15,7 +16,7 @@ const About = () => {
       <div className={styles.about__info}>
         <h1 className={styles.about__title}>About Me</h1>
         <p className={styles.about__presentation}>
-          {"Hi! I'm a passionate and versatile Web Developer with a knack for turning great ideas into elegant, user-centric digital solutions. I am currently focused on application development using mostly React and Nextjs. If you're looking for a dedicated and skilled Full-Stack Web Developer to join your team or collaborate on exciting projects, let's connect! I'm excited to engage with like-minded professionals, share insights, and explore opportunities that push the boundaries of web development 🚀"}
+          {"Hi! I'm a passionate and professional developer, offering comprehensive services as a web developer and data analyst. With a passion for both the creative and analytical sides of technology, I thrive in bridging the gap between innovative design and insightful data-driven solutions. If you're looking for a dedicated and skilled Full-Stack Web Developer to join your team or collaborate on exciting data projects, let's connect! I'm excited to engage with like-minded professionals, share insights, and explore opportunities to work with incredible teams🚀"}
         </p>
         <div>
           <h4 className={styles.techStack__title}>My Tech Stack</h4>
@@ -41,10 +42,6 @@ const About = () => {
               <p>React</p>
             </div>
             <div className={styles.tech__item}>
-              <TbBrandNextjs color='white' fontSize='20px'/>
-              <p>NextJS</p>
-            </div>
-            <div className={styles.tech__item}>
               <FaNodeJs color='white' fontSize='20px'/>
               <p>Node</p>
             </div>
@@ -55,6 +52,22 @@ const About = () => {
             <div className={styles.tech__item}>
               <DiMongodb color='white' fontSize='20px'/>
               <p>MongoDB</p>
+            </div>
+            <div className={styles.tech__item}>
+              <PiFileSqlBold color='white' fontSize='20px'/>
+              <p>SQL</p>
+            </div>
+            <div className={styles.tech__item}>
+              <SiPython color='white' fontSize='20px'/>
+              <p>Python</p>
+            </div>
+            <div className={styles.tech__item}>
+              <SiQlik color='white' fontSize='20px'/>
+              <p>Qlik Sense</p>
+            </div>
+            <div className={styles.tech__item}>
+              <SiPowerbi color='white' fontSize='20px'/>
+              <p>Power BI</p>
             </div>
             <div className={styles.tech__item}>
               <BiGitBranch color='white' fontSize='20px'/>
