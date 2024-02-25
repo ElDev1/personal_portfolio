@@ -14,7 +14,8 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement: <ErrorPage />
+    errorElement: <ErrorPage />,
+    title: 'Devi Amaolo'
   },
   {
     path: '/projects/:projectType',
